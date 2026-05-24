@@ -52,11 +52,38 @@ El sistema está dividido en cuatro partes fundamentales:
 4. **Actuación**  
    La bomba de agua realiza el riego automático.
 
-## Diagrama general
+## Diagrama general de Conexiones
+| Sensor | Arduino|
+| ------ | ---------------- |
+| VCC    | VIN              |
+| GND    | GND              |
+| DO     | 6               |
+
+| Relé | Arduino|
+| ---- | -------------------- |
+| VCC  | 5V                   |
+| GND  | GND                  |
+| IN   | 3 |
+
 ![Conexiones Base](https://github.com/Hiraeth248/Proyecto-Final/blob/main/Diagrama%20de%20Conexiones%20B%C3%A1sico.png)
 
 ## Instrucciones de Uso
-1. Definir el microcontrolador (en este caso se eligió el Arduino debido a que es sencillo de utilizar) y pensar en los componentes a utilizar para que el sistema funcione, esto para equilibrar la funcionalidad y la fácil adquisición de los implementos.
-2. Conectar el Arduino al computador haciendo uso del cable A-B, y conectar la batería de 9V a la salida de información del relé y la bomba de agua.
+1. Requisitos previos
+- [Arduino IDE](https://www.arduino.cc/en/software) instalado (versión 1.8 o superior).
+- Cable USB tipo A-B para conectar el Arduino al computador.
+- Conexiones de los componentes según el diagrama anterior.
+  
+2. Instalación y carga del código
+- Clonar o descargar este repositorio:
+   ```bash
+   git clone https://github.com/Manuel-Botk/Sistema-Embebido.git
+   ```
+- Abrir el archivo `Proyecto_de_Riego.ino` en el Arduino IDE.
+- En el menú **Herramientas**, seleccionar:
+   - **Placa:** Arduino MEGA (esto cambia según el microcontrolador que se use)
+   - **Puerto:** el puerto COM que corresponda al Arduino conectado.
+- Hacer clic en **Subir** (→) para cargar el firmware al Arduino.
+
 3. Comprobar el funcionamiento del sensor y la bomba, asegurando que la señal enviada hacia el Arduino sea correctamente interpretada por el relé y este active o desactive la bomba de agua.
+   
 4. En cuanto el circuito esté funcionando correctamente, será posible colocar el sensor en el lugar deseado para darle uso.
