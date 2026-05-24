@@ -1,21 +1,24 @@
 # Proyecto Final Sistemas Embebidos
 ## Sistema Embebido de Riego Automático
 
-Sistema de riego automático basado en un sensor de humedad del suelo, un microcontrolador y un módulo relé.  
+Sistema de riego automático en Arduino basado en un sensor de humedad de suelo, un microcontrolador y un módulo relé.  
 El proyecto permite monitorear continuamente la humedad de la tierra y activar automáticamente una bomba de agua cuando el suelo se encuentra seco.
+
+**Universidad de San Buenaventura - Ingeniería Multimedia**
+**Autores:** Geraldine Ladino, Paula Casallas, Carlos Sandoval, Juan Álvarez
 
 ## Descripción del Proyecto
 Este sistema fue diseñado como una solución simple y de bajo costo para automatizar el riego de plantas utilizando principios básicos de sistemas embebidos.
 
-El sensor de humedad mide continuamente las condiciones del suelo y envía los datos al microcontrolador.  
-El software procesa la información y decide si es necesario activar el sistema de riego mediante un relé que controla una bomba de agua.
+El sensor de humedad **YL-69** mide continuamente las condiciones del suelo y envía los datos al microcontrolador.  
+El software procesa la información y decide si es necesario activar el sistema de riego mediante un **relé de 5V** que controla una bomba de agua.
 
 Los objetivos principales del proyecto son:
 - Reducir el desperdicio de agua
 - Automatizar el cuidado de plantas
 
 ## Problemática Abordada
-La problemática abordada surge de la necesidad de optimizar el uso del agua en procesos de riego doméstico o agrícola a pequeña escala, evitando tanto el exceso como la falta de agua en el suelo. De manera adicional, también se maneja la necesidad específica de manejar el proceso del riego sin necesidad de la constante intervención humana; que ocasionalmente tiene dificultades no solo para manejar correctamente los horarios y las veces que una planta requiere de riego, sino también la cantidad de agua utilizada en cada ocasión.
+La problemática abordada surge de la necesidad de optimizar el uso del agua en procesos de riego doméstico o agrícola a pequeña escala, evitando tanto el exceso como la falta de agua en el suelo y a su vez disminuyendo la necesidad de una constante intervención humana en estos procesos.
 
 ## Características del Sistema
 - Lectura de humedad del suelo en tiempo real
