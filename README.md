@@ -4,9 +4,7 @@
 Sistema de riego automático basado en un sensor de humedad del suelo, un microcontrolador y un módulo relé.  
 El proyecto permite monitorear continuamente la humedad de la tierra y activar automáticamente una bomba de agua cuando el suelo se encuentra seco.
 
----
-
-# Descripción del proyecto
+## Descripción del Proyecto
 Este sistema fue diseñado como una solución simple y de bajo costo para automatizar el riego de plantas utilizando principios básicos de sistemas embebidos.
 
 El sensor de humedad mide continuamente las condiciones del suelo y envía los datos al microcontrolador.  
@@ -16,17 +14,16 @@ Los objetivos principales del proyecto son:
 - Reducir el desperdicio de agua
 - Automatizar el cuidado de plantas
 
----
+## Problemática Abordada
+La problemática abordada surge de la necesidad de optimizar el uso del agua en procesos de riego doméstico o agrícola a pequeña escala, evitando tanto el exceso como la falta de agua en el suelo. De manera adicional, también se maneja la necesidad específica de manejar el proceso del riego sin necesidad de la constante intervención humana; que ocasionalmente tiene dificultades no solo para manejar correctamente los horarios y las veces que una planta requiere de riego, sino también la cantidad de agua utilizada en cada ocasión.
 
-# Características
+## Características del Sistema
 - Lectura de humedad del suelo en tiempo real
 - Activación automática del riego
 - Control mediante módulo relé
 - Sistema de monitoreo continuo
 
----
-
-# Componentes utilizados
+## Componentes utilizados
 
 | Componente | Cantidad |
 |---|---|
@@ -37,10 +34,8 @@ Los objetivos principales del proyecto son:
 | Pila de 9V | 1 |
 | Cables jumper | Varios |
 
----
-
-# Arquitectura del sistema
-El sistema está dividido en cuatro bloques funcionales:
+## Arquitectura del Sistema
+El sistema está dividido en cuatro partes fundamentales:
 
 1. **Sensado**  
    El sensor de humedad mide las condiciones del suelo.
@@ -54,6 +49,4 @@ El sistema está dividido en cuatro bloques funcionales:
 4. **Actuación**  
    La bomba de agua realiza el riego automático.
 
----
-
-# Diagrama general
+## Diagrama general
