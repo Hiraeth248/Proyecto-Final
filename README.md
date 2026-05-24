@@ -1,7 +1,7 @@
 # Proyecto Final Sistemas Embebidos
 ## Sistema Embebido de Riego Automático
 
-Sistema de riego automático en Arduino basado en un sensor de humedad de suelo, un microcontrolador y un módulo relé.  
+Sistema de riego automático basado en un sensor de humedad de suelo, un microcontrolador y un módulo relé.  
 El proyecto permite monitorear continuamente la humedad de la tierra y activar automáticamente una bomba de agua cuando el suelo se encuentra seco.
 
 **Universidad de San Buenaventura - Ingeniería Multimedia**
