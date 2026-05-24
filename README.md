@@ -51,3 +51,9 @@ El sistema está dividido en cuatro partes fundamentales:
 
 ## Diagrama general
 ![Conexiones Base](https://github.com/Hiraeth248/Proyecto-Final/blob/main/Diagrama%20de%20Conexiones%20B%C3%A1sico.png)
+
+## Instrucciones de Uso
+1. Definir el microcontrolador (en este caso se eligió el Arduino debido a que es sencillo de utilizar) y pensar en los componentes a utilizar para que el sistema funcione, esto para equilibrar la funcionalidad y la fácil adquisición de los implementos.
+2. Conectar el Arduino al computador haciendo uso del cable A-B, y conectar la batería de 9V a la salida de información del relé y la bomba de agua.
+3. Comprobar el funcionamiento del sensor y la bomba, asegurando que la señal enviada hacia el Arduino sea correctamente interpretada por el relé y este active o desactive la bomba de agua.
+4. En cuanto el circuito esté funcionando correctamente, será posible colocar el sensor en el lugar deseado para darle uso.
