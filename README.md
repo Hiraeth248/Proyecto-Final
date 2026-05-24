@@ -31,7 +31,7 @@ La problemática abordada surge de la necesidad de optimizar el uso del agua en 
 | Componente | Cantidad |
 |---|---|
 | Arduino MEGA (o similar) | 1 |
-| Sensor de humedad del suelo | 1 |
+| Sensor de humedad del suelo YL-69 | 1 |
 | Módulo relé de 5V | 1 |
 | Mini bomba de agua | 1 |
 | Pila de 9V | 1 |
