@@ -50,4 +50,4 @@ El sistema está dividido en cuatro partes fundamentales:
    La bomba de agua realiza el riego automático.
 
 ## Diagrama general
-![Conexiones Base] (https://github.com/Hiraeth248/Proyecto-Final/blob/main/Diagrama%20de%20Conexiones%20B%C3%A1sico.png)
+![Conexiones Base](https://github.com/Hiraeth248/Proyecto-Final/blob/main/Diagrama%20de%20Conexiones%20B%C3%A1sico.png)
