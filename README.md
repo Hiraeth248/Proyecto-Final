@@ -1,5 +1,5 @@
-# Proyecto-Final Sistemas Embebidos
-# Sistema Embebido de Riego Automático
+# Proyecto Final Sistemas Embebidos
+## Sistema Embebido de Riego Automático
 
 Sistema de riego automático basado en un sensor de humedad del suelo, un microcontrolador y un módulo relé.  
 El proyecto permite monitorear continuamente la humedad de la tierra y activar automáticamente una bomba de agua cuando el suelo se encuentra seco.
