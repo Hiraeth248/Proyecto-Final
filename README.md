@@ -76,7 +76,7 @@ El sistema está dividido en cuatro partes fundamentales:
 2. Instalación y carga del código
 - Clonar o descargar este repositorio:
    ```bash
-   git clone https://github.com/Manuel-Botk/Sistema-Embebido.git
+   git clone https://github.com/Hiraeth248/Proyecto-Final.git
    ```
 - Abrir el archivo `Proyecto_de_Riego.ino` en el Arduino IDE.
 - En el menú **Herramientas**, seleccionar:
