@@ -10,13 +10,11 @@ El proyecto permite monitorear continuamente la humedad de la tierra y activar a
 Este sistema fue diseñado como una solución simple y de bajo costo para automatizar el riego de plantas utilizando principios básicos de sistemas embebidos.
 
 El sensor de humedad mide continuamente las condiciones del suelo y envía los datos al microcontrolador.  
-El software procesa la información y decide si es necesario activar el sistema de riego mediante un relé que controla una bomba de agua o una electroválvula.
+El software procesa la información y decide si es necesario activar el sistema de riego mediante un relé que controla una bomba de agua.
 
-El objetivo principal del proyecto es:
+Los objetivos principales del proyecto son:
 - Reducir el desperdicio de agua
 - Automatizar el cuidado de plantas
-- Implementar una arquitectura básica de adquisición y control de datos
-- Servir como proyecto educativo de electrónica y programación embebida
 
 ---
 
@@ -25,8 +23,6 @@ El objetivo principal del proyecto es:
 - Activación automática del riego
 - Control mediante módulo relé
 - Sistema de monitoreo continuo
-- Arquitectura modular y escalable
-- Compatible con Arduino y otros microcontroladores
 
 ---
 
@@ -34,11 +30,11 @@ El objetivo principal del proyecto es:
 
 | Componente | Cantidad |
 |---|---|
-| Arduino UNO (o similar) | 1 |
+| Arduino MEGA (o similar) | 1 |
 | Sensor de humedad del suelo | 1 |
 | Módulo relé de 5V | 1 |
-| Mini bomba de agua / electroválvula | 1 |
-| Fuente de alimentación | 1 |
+| Mini bomba de agua | 1 |
+| Pila de 9V | 1 |
 | Cables jumper | Varios |
 
 ---
